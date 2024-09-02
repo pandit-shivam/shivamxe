@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+.img3{
+    max-width: 110%;
+    max-height: 180%;
+    margin-top: 40px;
+    border-radius:10px;
+    
+}
+.btn2{
+    margin-top: 15px;
+    
+}
+
+.offer{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    padding: 40px 140px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    gap: 100px;
+}
+.offer-left{
+    margin-left: 20px;
+    margin-top: 40px;
+    /* gap: 10px; */
+}
+.offer-left h1{
+    color: #171711;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.offer-left p{
+    color: #171711;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.offer-left button{
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.offer-right{
+    flex: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+@media (max-width:1024px)
+{
+     .offer-left{
+        /* height: 28vh; */
+        padding-right: 30px;
+     }
+     .offer h1{
+        font-size: 30px;
+     }
+     .offer-left button{
+        width: 60%;
+     }
+     .offer-right img{
+        /* height: 50vh; */
+        /* margin-left: 10px; */
+        padding-left: 10px;
+     }
+     
+     
+}
+@media (max-width:900px)
+{
+     .offer-left{
+        /* height: 28vh; */
+        margin-left: -60px;
+     }
+     .offer h1{
+        font-size: 15px;
+     }
+     .offer-left button{
+        width: 40%;
+     }
+     .offer-right img{
+        /* height: 50vh; */
+        /* margin-left: 10px; */
+        /* padding-left: 10px; */
+        display: none;
+     }
+     
+     
+}
+@media (max-width:600px)
+{
+    .offer{
+        width: 170px;
+        /* height: 50vh; */
+    }
+     .offer-left{
+        height: 20vh;
+        margin-left: -40px;
+     }
+     .offer h1{
+        font-size: 15px;
+     }
+     .offer-left button{
+        width: 55%;
+        font-size: 15px;
+     }
+     .offer-right img{
+        /* height: 50vh; */
+        /* margin-left: 10px; */
+        /* padding-left: 10px; */
+        display: none;
+     }
+     
+     
+}

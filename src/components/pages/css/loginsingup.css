@@ -1,0 +1,122 @@
+.loginsingup{
+    width: 100%;
+    height: 125vh;
+    background: #fce3fe;
+    padding-top: 100px;
+}
+
+.loginsing-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.loginsing-container h1{
+   margin: 20px 0px; 
+}
+
+.loginsingup-feild{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+
+.loginsingup-feild input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9cc;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.loginsing-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginsingup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+ 
+.loginsingup-login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+
+.loginsingup-agre{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+@media (max-width:1280px)
+{
+    .oginsingup{
+        padding-top: 50px;
+    }
+    .loginsing-container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .loginsing-container h1{
+        margin: 10px 0px;
+    }
+    .loginsingup-feild{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .loginsingup-feild input{
+        height: 65px;
+        width: 93%;
+    }
+    .loginsing-container button{
+        width: 100%;
+    }
+    .loginsingup-login{
+        font-size: 16px;
+    }
+    .loginsingup-agre{
+        font-size: 14px;
+        gap: 10px
+    }
+}
+@media(max-width:800px)
+{
+    .loginsing-container{
+        padding: 20px 30px;
+    }
+    .loginsing-container h1{
+        font-size: 24px;
+    }
+    .loginsingup-feild{
+        margin-top: 20px;
+    }
+    .loginsingup-feild input{
+        height: 50px;
+    }
+    .loginsing-container button{
+        height: 50px;
+        font-size: 16px;
+    }
+}
